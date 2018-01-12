@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		892290E3A839952A18E5F45A /* Pods_PlaceVacation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB27F47D7FE793CF0912D48 /* Pods_PlaceVacation.framework */; };
 		972AE5692007C15500A159EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972AE5682007C15500A159EE /* AppDelegate.swift */; };
-		972AE56B2007C15500A159EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972AE56A2007C15500A159EE /* ViewController.swift */; };
 		972AE56E2007C15500A159EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 972AE56C2007C15500A159EE /* Main.storyboard */; };
 		972AE5702007C15500A159EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 972AE56F2007C15500A159EE /* Assets.xcassets */; };
 		972AE5732007C15500A159EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 972AE5712007C15500A159EE /* LaunchScreen.storyboard */; };
+		972AE57B2007C21C00A159EE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972AE57A2007C21C00A159EE /* HomeViewController.swift */; };
+		972AE57D2007CA1900A159EE /* CustomMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972AE57C2007CA1900A159EE /* CustomMarkerView.swift */; };
+		972AE5802007CB3E00A159EE /* PlacePreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972AE57E2007CB3D00A159EE /* PlacePreviewView.swift */; };
+		972AE5812007CB3E00A159EE /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972AE57F2007CB3D00A159EE /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F7A4428188838AAA8E22980 /* Pods-PlaceVacation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaceVacation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlaceVacation/Pods-PlaceVacation.debug.xcconfig"; sourceTree = "<group>"; };
 		972AE5652007C15500A159EE /* PlaceVacation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaceVacation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		972AE5682007C15500A159EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		972AE56A2007C15500A159EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		972AE56D2007C15500A159EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		972AE56F2007C15500A159EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		972AE5722007C15500A159EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		972AE5742007C15500A159EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		972AE57A2007C21C00A159EE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		972AE57C2007CA1900A159EE /* CustomMarkerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMarkerView.swift; sourceTree = "<group>"; };
+		972AE57E2007CB3D00A159EE /* PlacePreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacePreviewView.swift; sourceTree = "<group>"; };
+		972AE57F2007CB3D00A159EE /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		ABB27F47D7FE793CF0912D48 /* Pods_PlaceVacation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlaceVacation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C441FA68776C54CF8C74D309 /* Pods-PlaceVacation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlaceVacation.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlaceVacation/Pods-PlaceVacation.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				892290E3A839952A18E5F45A /* Pods_PlaceVacation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19ADA6E3B39D5CB518D71101 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABB27F47D7FE793CF0912D48 /* Pods_PlaceVacation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		972AE55C2007C15500A159EE = {
 			isa = PBXGroup;
 			children = (
 				972AE5672007C15500A159EE /* PlaceVacation */,
 				972AE5662007C15500A159EE /* Products */,
+				E30B008C51A573AAD873B3A3 /* Pods */,
+				19ADA6E3B39D5CB518D71101 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +75,26 @@
 		972AE5672007C15500A159EE /* PlaceVacation */ = {
 			isa = PBXGroup;
 			children = (
+				972AE57F2007CB3D00A159EE /* DetailVC.swift */,
+				972AE57E2007CB3D00A159EE /* PlacePreviewView.swift */,
+				972AE57C2007CA1900A159EE /* CustomMarkerView.swift */,
 				972AE5682007C15500A159EE /* AppDelegate.swift */,
-				972AE56A2007C15500A159EE /* ViewController.swift */,
 				972AE56C2007C15500A159EE /* Main.storyboard */,
 				972AE56F2007C15500A159EE /* Assets.xcassets */,
 				972AE5712007C15500A159EE /* LaunchScreen.storyboard */,
 				972AE5742007C15500A159EE /* Info.plist */,
+				972AE57A2007C21C00A159EE /* HomeViewController.swift */,
 			);
 			path = PlaceVacation;
+			sourceTree = "<group>";
+		};
+		E30B008C51A573AAD873B3A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F7A4428188838AAA8E22980 /* Pods-PlaceVacation.debug.xcconfig */,
+				C441FA68776C54CF8C74D309 /* Pods-PlaceVacation.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 972AE5772007C15500A159EE /* Build configuration list for PBXNativeTarget "PlaceVacation" */;
 			buildPhases = (
+				412806B2C27335CF2B8D3204 /* [CP] Check Pods Manifest.lock */,
 				972AE5612007C15500A159EE /* Sources */,
 				972AE5622007C15500A159EE /* Frameworks */,
 				972AE5632007C15500A159EE /* Resources */,
+				7311BAFBF8CE2E54423FE439 /* [CP] Embed Pods Frameworks */,
+				ADBA72D855FCFFE7649286E6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +167,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		412806B2C27335CF2B8D3204 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlaceVacation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7311BAFBF8CE2E54423FE439 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlaceVacation/Pods-PlaceVacation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADBA72D855FCFFE7649286E6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PlaceVacation/Pods-PlaceVacation-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlaceVacation/Pods-PlaceVacation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		972AE5612007C15500A159EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				972AE56B2007C15500A159EE /* ViewController.swift in Sources */,
+				972AE5812007CB3E00A159EE /* DetailVC.swift in Sources */,
 				972AE5692007C15500A159EE /* AppDelegate.swift in Sources */,
+				972AE57B2007C21C00A159EE /* HomeViewController.swift in Sources */,
+				972AE57D2007CA1900A159EE /* CustomMarkerView.swift in Sources */,
+				972AE5802007CB3E00A159EE /* PlacePreviewView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,11 +367,13 @@
 		};
 		972AE5782007C15500A159EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F7A4428188838AAA8E22980 /* Pods-PlaceVacation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P3Z8595GF2;
 				INFOPLIST_FILE = PlaceVacation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tungxona.PlaceVacation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,11 +384,13 @@
 		};
 		972AE5792007C15500A159EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C441FA68776C54CF8C74D309 /* Pods-PlaceVacation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P3Z8595GF2;
 				INFOPLIST_FILE = PlaceVacation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tungxona.PlaceVacation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
